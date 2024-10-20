@@ -6,7 +6,14 @@ export default {
   ],
 
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        wiggle: {
+          '0%, 100%': { transform: 'translatey(-100px)' },
+          '50%': { transform: 'translatey(0)' },
+        }
+      }
+    }
   },
   plugins: [],
 }
