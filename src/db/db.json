@@ -1,7 +1,78 @@
 {
     "menu":[
         {
-            "id" :12
+            "id" :1,
+            "name":"محصولات",
+            "path":"/",
+            "svg":"https://okcs.com/img/new/icons/products.png"
+        },
+        {
+            "id" :2,
+            "name":"فروشگاه اینترنتی",
+            "path":"/",
+            "svg":"https://okcs.com/img/new/icons/online-shopping.png"
+        },
+        {
+            "id" :3,
+            "name":"باشگاه مشتریان ",
+            "path":"/",
+            "svg":"https://okcs.com/img/new/icons/club.png"
+        },
+        {
+            "id" :4,
+            "name":"دریافت نمایندگی",
+            "path":"/",
+            "svg":"https://okcs.com/img/new/icons/Franchise.png"
+        },
+        {
+            "id" :5,
+            "name":"جشنواره ها",
+            "path":"/",
+            "svg":"https://okcs.com/img/new/icons/festivals.png"
+        },
+        {
+            "id" :6,
+            "name":"درباره ما",
+            "path":"/",
+            "svg":"https://okcs.com/img/new/icons/about-us.png"
+        }
+    ],
+    "slider":[
+        {
+            "id" :1,
+            "name":"محصولات",
+            "path":"/",
+            "svg":"https://okcs.com/img/new/icons/products.png"
+        },
+        {
+            "id" :2,
+            "name":"فروشگاه اینترنتی",
+            "path":"/",
+            "svg":"https://okcs.com/img/new/icons/products.png"
+        },
+        {
+            "id" :3,
+            "name":"باشگاه مشتریان ",
+            "path":"/",
+            "svg":"https://okcs.com/img/new/icons/products.png"
+        },
+        {
+            "id" :4,
+            "name":"دریافت نمایندگی",
+            "path":"/",
+            "svg":"https://okcs.com/img/new/icons/products.png"
+        },
+        {
+            "id" :5,
+            "name":"جشنواره ها",
+            "path":"/",
+            "svg":"https://okcs.com/img/new/icons/products.png"
+        },
+        {
+            "id" :6,
+            "name":"درباره ما",
+            "path":"/",
+            "svg":"https://okcs.com/img/new/icons/products.png"
         }
     ]
 }
