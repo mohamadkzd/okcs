@@ -50,4 +50,15 @@
     stroke-dasharray: 125.6;
     transform: rotate(-90deg);
   }
+  .swiper-button-prev,.swiper-button-next{
+     color: white !important;
+     border: 1px solid white;
+     border-radius: 50%;
+  }
   
+  .swiper-button-prev::after{
+    font-size: 14px;
+  }
+  .swiper-button-next::after{
+    font-size: 14px;
+  }
