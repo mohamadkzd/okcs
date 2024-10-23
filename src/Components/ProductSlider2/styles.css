@@ -1,7 +1,8 @@
 
-.swiper {
-    width: 100%;
+.mySwiper2 {
+    width: 95%;
     height: 100%;
+    padding-block: 20px;
   }
   
   .swiper-slide {
@@ -21,6 +22,14 @@
     height: 100%;
     object-fit: cover;
   }
-  .img{
+  .img2{
     width: 250px !important;
+    object-fit: contain !important;
+  }
+  .swiper-slide2{
+    height: 380px !important;
+    display: flex;
+    flex-direction: column;
+    width: 200px !important;
+    border-radius: 20px;
   }

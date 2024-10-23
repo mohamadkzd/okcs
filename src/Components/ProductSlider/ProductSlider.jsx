@@ -10,7 +10,7 @@ const ProductSlider = () => {
         <div className="lg:flex hidden w-[20%] justify-center items-center">
           <img src={calunder} alt="" />
         </div>
-        <div className="lg:w-[80%] w-full overflow-x-clip">
+        <div className="lg:w-[80%] overflow-x-scroll w-full">
           <div className="flex gap-x-5 justify-right items-center overflow-hidden lg:w-[130%] md:w-[200%] w-[280%] py-[30px] pl-[10px] lg:pr-0 pr-[10px]">
             <div className="flex flex-col gap-y-6 justify-center items-center w-[20%] bg-[white] rounded-[10px] py-2">
               <div>

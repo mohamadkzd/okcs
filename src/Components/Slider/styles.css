@@ -54,8 +54,18 @@
      color: white !important;
      border: 1px solid white;
      border-radius: 50%;
+     transition: all ;
+     transition-duration:300ms ;
+     width: 40px;
   }
   
+  .swiper-button-prev:hover{
+    background-color: gray;
+  }
+  .swiper-button-next:hover{
+    background-color: gray;
+  }
+
   .swiper-button-prev::after{
     font-size: 14px;
   }
