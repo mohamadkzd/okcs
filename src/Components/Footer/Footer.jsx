@@ -9,7 +9,7 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 const Footer = () => {
   return (
     <div className="bg-[#f8f9fa] w-full px-[20px] mt-[50px] ">
-      <div className="flex sm:justify-center items-start lg:gap-x-[100px] gap-x-[10px]  gap-y-[50px] flex-wrap py-[30px]">
+      <div className="flex sm:justify-center justify-around items-start lg:gap-x-[100px] gap-x-[10px]  gap-y-[50px] flex-wrap py-[30px]">
         <div className="flex flex-col justify-center items-start gap-y-[5px]">
           <h1 className="text-[#444] text-[16px] pb-[10px] font-bold">
             دسترسی سریع
