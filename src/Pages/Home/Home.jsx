@@ -9,16 +9,16 @@ import Magazaine from "../../Components/Magazine/Magazaine";
 import Footer from "../../Components/Footer/Footer";
 import ProductSlider2 from "../../Components/ProductSlider2/ProductSlider2";
 const Home = () => {
-  
-  return <div>
-    <Slider/>
-    <Banner/>
-    {/* <ProductSlider/> */}
-    <Banner2/>
-    <ProductSlider2/>
-    <Magazaine/>
-    <Footer/>
-  </div>;
+  return (
+    <div>
+      <Slider />
+      <Banner />
+      <Banner2 />
+      <ProductSlider2 />
+      <Magazaine />
+      <Footer />
+    </div>
+  );
 };
 
 export default Home;

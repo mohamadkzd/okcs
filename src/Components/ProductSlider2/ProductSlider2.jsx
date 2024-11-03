@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 // import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -14,10 +14,17 @@ import "./styles.css";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
+import db from "../../db/db.json";
+
 import slider11 from "../../assets/product-1.jpg";
 import calunder from "../../assets/calunder.png";
 
 const ProductSlider2 = () => {
+  const [productSlider, setProductSlider] = useState(null);
+  useEffect(() => {
+    setProductSlider(db.productSlider);
+  }, []);
+
   const progressCircle = useRef(null);
   const progressContent = useRef(null);
   const onAutoplayTimeLeft = (s, time, progress) => {
@@ -58,86 +65,26 @@ const ProductSlider2 = () => {
                 modules={[Autoplay, Pagination, Navigation]}
                 className="mySwiper2"
               >
-                <SwiperSlide className="swiper-slide2">
-                  <img className="img2" src={slider11} alt="" />
-                  <div className="">
-                    <p>
-                      شامپو حاوی ویتامین موهای معمولی بنفش صدفی 1000 گرمی اوه
-                    </p>
-                  </div>
-                  <span>54.400</span>
-                  <span className="takhfif relative">60.400</span>
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide2">
-                  <img className="img2" src={slider11} alt="" />
-                  <div className="">
-                    <p>
-                      شامپو حاوی ویتامین موهای معمولی بنفش صدفی 1000 گرمی اوه
-                    </p>
-                  </div>
-                  <span>54.400</span>
-                  <span className="takhfif relative">60.400</span>
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide2">
-                  <img className="img2" src={slider11} alt="" />
-                  <div className="">
-                    <p>
-                      شامپو حاوی ویتامین موهای معمولی بنفش صدفی 1000 گرمی اوه
-                    </p>
-                  </div>
-                  <span>54.400</span>
-                  <span className="takhfif relative">60.400</span>
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide2">
-                  <img className="img2" src={slider11} alt="" />
-                  <div className="">
-                    <p>
-                      شامپو حاوی ویتامین موهای معمولی بنفش صدفی 1000 گرمی اوه
-                    </p>
-                  </div>
-                  <span>54.400</span>
-                  <span className="takhfif relative">60.400</span>
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide2">
-                  <img className="img2" src={slider11} alt="" />
-                  <div className="">
-                    <p>
-                      شامپو حاوی ویتامین موهای معمولی بنفش صدفی 1000 گرمی اوه
-                    </p>
-                  </div>
-                  <span>54.400</span>
-                  <span className="takhfif relative">60.400</span>
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide2">
-                  <img className="img2" src={slider11} alt="" />
-                  <div className="">
-                    <p>
-                      شامپو حاوی ویتامین موهای معمولی بنفش صدفی 1000 گرمی اوه
-                    </p>
-                  </div>
-                  <span>54.400</span>
-                  <span className="takhfif relative">60.400</span>
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide2">
-                  <img className="img2" src={slider11} alt="" />
-                  <div className="">
-                    <p>
-                      شامپو حاوی ویتامین موهای معمولی بنفش صدفی 1000 گرمی اوه
-                    </p>
-                  </div>
-                  <span>54.400</span>
-                  <span className="takhfif relative">60.400</span>
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide2">
-                  <img className="img2" src={slider11} alt="" />
-                  <div className="">
-                    <p>
-                      شامپو حاوی ویتامین موهای معمولی بنفش صدفی 1000 گرمی اوه
-                    </p>
-                  </div>
-                  <span>54.400</span>
-                  <span className="takhfif relative">60.400</span>
-                </SwiperSlide>
+                {productSlider?.map((elem) => {
+                  return (
+                    <SwiperSlide className="swiper-slide2">
+                      <img className="img2" src={elem.img} alt="" />
+                      <div className="px-3">
+                        <p className="text-[14px] text-[#707070]">
+                          {elem.description}
+                        </p>
+                      </div>
+
+                      <div className="py-[10px] flex flex-col gap-y-[10px]">
+                        <span className="takhfif relative text-[15px] text-[#707070]">
+                          {elem.price}
+                        </span>
+                        <span className="text-[15px]">{elem.discount}</span>
+                      </div>
+                    </SwiperSlide>
+                  );
+                })}
+
                 <div className="autoplay-progress" slot="container-end">
                   <svg viewBox="0 0 48 48" ref={progressCircle}>
                     <circle cx="24" cy="24" r="20"></circle>

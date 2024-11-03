@@ -1,78 +1,226 @@
 {
-    "menu":[
+  "menu": [
+    {
+      "id": 1,
+      "name": "محصولات",
+      "path": "/",
+      "svg": "https://okcs.com/img/new/icons/products.png"
+    },
+    {
+      "id": 2,
+      "name": "فروشگاه اینترنتی",
+      "path": "/",
+      "svg": "https://okcs.com/img/new/icons/online-shopping.png"
+    },
+    {
+      "id": 3,
+      "name": "باشگاه مشتریان ",
+      "path": "/",
+      "svg": "https://okcs.com/img/new/icons/club.png"
+    },
+    {
+      "id": 4,
+      "name": "دریافت نمایندگی",
+      "path": "/",
+      "svg": "https://okcs.com/img/new/icons/Franchise.png"
+    },
+    {
+      "id": 5,
+      "name": "جشنواره ها",
+      "path": "/",
+      "svg": "https://okcs.com/img/new/icons/festivals.png"
+    },
+    {
+      "id": 6,
+      "name": "درباره ما",
+      "path": "/",
+      "svg": "https://okcs.com/img/new/icons/about-us.png"
+    }
+  ],
+  "slider": [
+    {
+      "id": 1,
+      "alt": "",
+      "src": "https://okcs.com/files/slider/src/fd5360lux-slider.jpg"
+    },
+    {
+      "id": 2,
+      "alt": "",
+      "src": "https://okcs.com/files/slider/src/d083731600x640cm.jpg"
+    },
+    {
+      "id": 3,
+      "alt": "",
+      "src": "https://okcs.com/files/slider/src/23bbb701-Website-Slideshow-1600x640.jpg"
+    },
+    {
+      "id": 4,
+      "alt": "",
+      "src": "https://okcs.com/files/slider/src/5e24f7franchise.jpg"
+    }
+  ],
+  "productSlider": [
+    {
+      "id": 1,
+      "img": "https://pic.okcs.com/product/865.101/300",
+      "alt": "",
+      "description": " اسپاگتی 1.5 رشته ای 700 گرمی زر",
+      "price": 38250,
+      "discount": 35000
+    },
+    {
+      "id": 2,
+      "img": "https://pic.okcs.com/product/38488.199/300",
+      "alt": "",
+      "description": " شامپو موی سر آقایان نعنایی 400 میل کلییر",
+      "price": 135000,
+      "discount": 130000
+    },
+    {
+      "id": 3,
+      "img": "https://pic.okcs.com/product/7122.101/300",
+      "alt": "",
+      "description": " بستنی یک لیتری وانیلی میهن",
+      "price": 80000,
+      "discount": 63000
+    },
+    {
+      "id": 4,
+      "img": "https://pic.okcs.com/product/34407.199/300",
+      "alt": "",
+      "description": " بستنی سالینو توت فرنگی دومینو",
+      "price": 30000,
+      "discount": 23000
+    },
+    {
+      "id": 5,
+      "img": "https://pic.okcs.com/product/5637684584/300",
+      "alt": "",
+      "description": " کنسرو ماهی در روغن آسان باز شو 180 گرمی محفل",
+      "price": 87000,
+      "discount": 69000
+    },
+    {
+      "id": 6,
+      "img": "https://pic.okcs.com/product/44313.199/300",
+      "alt": "",
+      "description": " سوسیس آلمانی توری 500 گرم سولیکو",
+      "price": 88000,
+      "discount": 63000
+    },
+    {
+      "id": 7,
+      "img": "https://pic.okcs.com/product/31343.199/300",
+      "alt": "",
+      "description": " استیک کچاپ ویژه 105 گرمی چی توز",
+      "price": 20000,
+      "discount": 15000
+    },
+    {
+      "id": 8,
+      "img": "https://pic.okcs.com/product/5637953832/300",
+      "alt": "",
+      "description": "سس کچاپ 530 گرم فامیلا",
+      "price": 49000,
+      "discount": 27000
+    }
+  ],
+  "magazine": [
+    {
+      "id": 1,
+      "img": "https://blog.okcs.com/wp-content/uploads/2022/01/Chicken-Cutlets-with-Sundried-Tomato-Cream-Sauce.jpg",
+      "body": "۵۰ غذای ساده برای شام | غذاهای سبک و سه سوته + فیلم"
+    },
+    {
+      "id": 2,
+      "img": "https://blog.okcs.com/wp-content/uploads/2023/07/havij-polow-ba-morgh-braised-saffron-chicken-with-carrot-and-rice-pilaf-6753636-hero-01-ece5f30b02c94a7cab901ec1784bdebe.jpg",
+      "body": "غذا با مرغ و برنج چی بپزم؟ | دستور ۳۰ غذا با مرغ و برنج + فیلم"
+    },
+    {
+      "id": 3,
+      "img": "https://blog.okcs.com/wp-content/uploads/2024/10/%D8%B1%D8%A7%D8%AA%D8%A7-%D9%85%D8%B1%D8%BA-1.jpg",
+      "body": "طرز تهیه راتا مرغ (کاناپ مرغ) | شیک ترین فینگرفود تولد و مهمونی"
+    }
+  ],
+  "footerLink": [
+    {
+      "id": 1,
+      "title": "دسترسی سریع",
+      "subMenu": [
         {
-            "id" :1,
-            "name":"محصولات",
-            "path":"/",
-            "svg":"https://okcs.com/img/new/icons/products.png"
+          "id": 1,
+          "name": "تماس با ما"
         },
         {
-            "id" :2,
-            "name":"فروشگاه اینترنتی",
-            "path":"/",
-            "svg":"https://okcs.com/img/new/icons/online-shopping.png"
+          "id": 2,
+          "name": "نصب اپلیکیشن"
         },
         {
-            "id" :3,
-            "name":"باشگاه مشتریان ",
-            "path":"/",
-            "svg":"https://okcs.com/img/new/icons/club.png"
+          "id": 3,
+          "name": "پرسش و پاسخ متداول"
         },
         {
-            "id" :4,
-            "name":"دریافت نمایندگی",
-            "path":"/",
-            "svg":"https://okcs.com/img/new/icons/Franchise.png"
+          "id": 4,
+          "name": "فروش کوروش کارت"
         },
         {
-            "id" :5,
-            "name":"جشنواره ها",
-            "path":"/",
-            "svg":"https://okcs.com/img/new/icons/festivals.png"
+          "id": 5,
+          "name": "فروش انبوه (کالا)"
         },
         {
-            "id" :6,
-            "name":"درباره ما",
-            "path":"/",
-            "svg":"https://okcs.com/img/new/icons/about-us.png"
+          "id": 6,
+          "name": "مجله کوروش"
         }
-    ],
-    "slider":[
+      ]
+    },
+    {
+      "id": 2,
+      "title": "درباره افق کوروش",
+      "subMenu": [
         {
-            "id" :1,
-            "name":"محصولات",
-            "path":"/",
-            "svg":"https://okcs.com/img/new/icons/products.png"
+          "id": 1,
+          "name": "درباره ما"
         },
         {
-            "id" :2,
-            "name":"فروشگاه اینترنتی",
-            "path":"/",
-            "svg":"https://okcs.com/img/new/icons/products.png"
+          "id": 2,
+          "name": "اعضاء هیئت مدیره"
         },
         {
-            "id" :3,
-            "name":"باشگاه مشتریان ",
-            "path":"/",
-            "svg":"https://okcs.com/img/new/icons/products.png"
+          "id": 3,
+          "name": "فروشگاه ها  "
         },
         {
-            "id" :4,
-            "name":"دریافت نمایندگی",
-            "path":"/",
-            "svg":"https://okcs.com/img/new/icons/products.png"
+          "id": 4,
+          "name": "آخبار"
         },
         {
-            "id" :5,
-            "name":"جشنواره ها",
-            "path":"/",
-            "svg":"https://okcs.com/img/new/icons/products.png"
+          "id": 5,
+          "name": "کمیته‌های تخصصی"
         },
         {
-            "id" :6,
-            "name":"درباره ما",
-            "path":"/",
-            "svg":"https://okcs.com/img/new/icons/products.png"
+          "id": 6,
+          "name": "امور سهام"
         }
-    ]
+      ]
+    },
+    {
+      "id": 3,
+      "title": "همکاری با ما",
+      "subMenu": [
+        { "id": 1, "name": "کارمند فروشگاه" },
+        { "id": 2, "name": "فرصت های شغلی" },
+        { "id": 3, "name": "دریافت نمایندگی" },
+        { "id": 4, "name": " دریافت نمایندگی (فرانچایز)" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "همکاران و تامین کنندگان",
+      "subMenu": [
+        { "id": 1, "name": "سامانه همکاران " },
+        { "id": 2, "name": "آموزش همکاران " },
+        { "id": 3, "name": "ورود تامین کنندگان جدید " }
+      ]
+    }
+  ]
 }

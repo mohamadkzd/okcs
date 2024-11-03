@@ -4,7 +4,7 @@ import baner2 from "../../assets/baner-1-2.png";
 const Banner = () => {
   return (
     <div className="w-full h-[150px] relative bg-[#ffa100] mt-[50px]">
-      <div className="w-full h-full absolute top-0 flex justify-center items-center gap-x-11">
+      <div className="w-full h-full absolute top-0 flex justify-center items-center sm:gap-x-11 gap-x-[10px]">
         <div>
           <img src={baner1} alt="" />
         </div>
